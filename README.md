@@ -1,8 +1,7 @@
 Quickbooks Adapter
 ==================
 
-The Quickbooks Adapter enables internet access to Quickbooks data, which is usually protected by firewalls. It can be used as a replacement to Intuit Quickbooks Web Connector on a microservices architecture. It actively checks a broker for database queries, runs them on an QODBC
-connection, and returns the result, then deletes the queries on the broker.
+The Quickbooks Adapter enables internet access to Quickbooks data, which is usually protected by firewalls. this can be used as a replacement to Intuit Quickbooks Web Connector that runs on on XML/SOAP,  while this run on a microservices architecture, communicating in REST/JSON. It actively checks a broker for database queries, runs them on an QODBC connection, and returns the result, then deletes the queries on the broker.
 
 Design Principles
 -----------------
