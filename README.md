@@ -8,8 +8,7 @@ Design Principles
 -----------------
 
 ### Command-query Separation
-This allows the server API design to be simple, to do one thing at a time, with no concern with 
-workflow.
+This simplifies the server API implementatio. The API therefore follows the DOT priciple (do one thing at a time), with no concern with workflow.
 
 ### Idempotency of Operations
-THis enhances the reliability of the client and the server by leaving no side-effects, and allowing reties on failure.
+This enhances the reliability of the client and the server by leaving no side-effects, and allowing retries on failure.
